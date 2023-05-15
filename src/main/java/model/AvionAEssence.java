@@ -52,7 +52,7 @@ public class AvionAEssence extends VehiculeVolant implements VehiculeAEssence{
 
     @Override
     public String toString(){
-        String result = "Avion à essence de marque: " + this.marque + " de modele: " + this.modele + " et de vitesse max: " + this.vitesseMax;
+        String result = "Avion à essence de marque: " + this.marque + " de modele: " + this.modele + " et de vitesse max: " + this.vitesseMax + " kms/h";
         return result;
     } 
 }

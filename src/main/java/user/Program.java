@@ -20,7 +20,7 @@ public class Program {
    
         //testSalarier();
         //testVetement();
-        //testVehicules();
+        testVehicules();
 
     }
 

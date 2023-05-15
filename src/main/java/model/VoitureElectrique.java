@@ -53,7 +53,7 @@ public class VoitureElectrique extends VehiculeRoulant implements VehiculeElectr
 
     @Override
     public String toString(){
-        String result = "Voiture électrique de marque: " + this.marque + " de modele: " + this.modele + " et de vitesse max: " + this.vitesseMax;
+        String result = "Voiture électrique de marque: " + this.marque + " de modele: " + this.modele + " et de vitesse max: " + this.vitesseMax + " kms/h";
         return result;
     } 
 
