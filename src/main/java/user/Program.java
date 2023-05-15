@@ -19,8 +19,8 @@ public class Program {
 
    
         //testSalarier();
-        testVetement();
-        // testVehicules();
+        //testVetement();
+        //testVehicules();
 
     }
 
@@ -34,6 +34,7 @@ public class Program {
         for (Vehicule v : vtab){
             System.out.println("--------------------------");
             v.seDeplace();
+            v.affiche();
         }
     }
 

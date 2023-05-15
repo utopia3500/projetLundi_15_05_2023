@@ -47,6 +47,11 @@ public class VoitureAEssence extends VehiculeRoulant implements VehiculeAEssence
     }
 
     @Override
+    public void affiche(){
+        System.out.println(toString());
+    }
+
+    @Override
     public String toString(){
         String result = "Voiture à essence marque: " + this.marque + " de modèle: " + modele + " et de vitesse max: " + vitesseMax;
         return result;

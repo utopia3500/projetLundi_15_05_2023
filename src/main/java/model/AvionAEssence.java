@@ -45,6 +45,10 @@ public class AvionAEssence extends VehiculeVolant implements VehiculeAEssence{
     public void setVitesseMax(int vitesseMax){
         this.vitesseMax = vitesseMax;
     }
+    @Override
+    public void affiche(){
+        System.out.println(toString());
+    }
 
     @Override
     public String toString(){

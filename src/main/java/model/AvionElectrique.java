@@ -47,6 +47,11 @@ public class AvionElectrique extends VehiculeVolant implements VehiculeElectriqu
     }
 
     @Override
+    public void affiche(){
+        System.out.println(toString());
+    }
+
+    @Override
     public String toString(){
         String result = "Avion électrique de marque: " + this.marque + " de modele: " + this.modele + " et de vitesse max: " + this.vitesseMax;
         return result;
