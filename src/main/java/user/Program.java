@@ -4,9 +4,14 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import main.java.model.AvionAEssence;
+import main.java.model.AvionElectrique;
 import main.java.model.Salarier;
+import main.java.model.Vehicule;
 import main.java.model.Vetement;
 import main.java.model.VetementComparator;
+import main.java.model.VoitureAEssence;
+import main.java.model.VoitureElectrique;
 
 public class Program {
 
@@ -15,7 +20,21 @@ public class Program {
    
         //testSalarier();
         testVetement();
+        // testVehicules();
 
+    }
+
+    public static void testVehicules(){
+        Vehicule[] vtab = new Vehicule[4];
+        vtab[0] = new AvionAEssence("Bombardier", "B", 800);
+        vtab[1] = new AvionElectrique("Boeing", "C", 1200);
+        vtab[2] = new VoitureAEssence("Citroen", "A", 150);
+        vtab[3] = new VoitureElectrique("Peugeot", "D", 120);
+
+        for (Vehicule v : vtab){
+            System.out.println("--------------------------");
+            v.seDeplace();
+        }
     }
 
     public static void testVetement(){

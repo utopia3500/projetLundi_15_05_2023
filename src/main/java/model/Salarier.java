@@ -3,7 +3,7 @@ package main.java.model;
 public class Salarier{
     private int id;
     private String nom;
-    private  String prenom;
+    private String prenom;
     private double salaire;
 
     public Salarier(int id, String nom, String prenom, double salaire){
