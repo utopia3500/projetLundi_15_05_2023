@@ -2,7 +2,7 @@
 *.class
 
 # Répertoire bin pour eclipse
-/bin
+bin/
 
 # Log file
 *.log
