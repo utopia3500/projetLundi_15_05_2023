@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Répertoire bin pour eclipse
+/bin
+
 # Log file
 *.log
 
